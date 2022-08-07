@@ -7,7 +7,7 @@ import { GraphQLObjectType, GraphQLSchema } from "graphql";
 // import { query } from "../queries/query.js";
 
 // define query types from graphql query
-// import { type } from "../types/types.js";
+import { userType, postType } from "../types/types.js";
 
 const queryType=new GraphQLObjectType({
     name:"queryType",
